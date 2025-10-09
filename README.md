@@ -1,4 +1,4 @@
-+A Educação - Analista de Testes
++A Educação - Time de Qualidade
 ===================
 
 [![N|Solid](https://maisaedu.com.br/hubfs/site-grupo-a/logo-mais-a-educacao.svg)](https://maisaedu.com.br/) 
