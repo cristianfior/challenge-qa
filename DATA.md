@@ -1,0 +1,4 @@
+##### Estratégia para massa de dados
+Entendendo que a aplicação e o time são grandes, é mais interessante utilizar uma massa dinâmica criada antes dos testes e deletada ao fim destes, dessa forma não é gerado log desnecessário, tampouco a massa suja escalona a memória do banco. 
+Em dotnet daria pra usar a biblioteca BOGUS, que é um port da fakerjs, para gerar a massa dinâmica.
+Pra limpar os dados poderia ser utilizado a biblioteca RESPAWN, pois ela limpa os dados entre um teste e outro, porém sem ter que montar o banco e as tabelas a cada novo teste. O respawn mantem o banco e tabelas montados e só limpa os dados, assim fica mais rápido; além disso ele consegue entender quando existe dependencia entre dados e tabelas e cria uma ordem de deleção.

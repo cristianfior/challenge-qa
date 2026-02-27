@@ -1,0 +1,3 @@
+Para o my_messages e admin utilizei cenários simulando 100, 500 e 1000 usuários virtuais, em diferentes condições pra testar de diferentes angulos como a aplicação se portava num periodo curto de tempo.
+Para o flip_coin adotei um cenário de estresse, aumentando e diminuindo de forma mais rápida a quantidade de usuários, pra analisar como a aplicação se comportaria com testes de borda.
+E para o pizza abordei um teste de pico, aumentando drasticamente a quantidade de requisições com envio de dados com muitos usuários em pouco tempo e depois tirando esses usuários abruptamente.
